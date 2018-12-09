@@ -1,3 +1,27 @@
 body {
-	background-color: lightblue;
+}
+
+a {
+	color: #EF233C;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+header, footer {
+	background: #2B2D42;
+	color: #8D99AE;
+}
+
+header h1, header h2 {
+	color: #EDF2F4;
+}
+
+.work {
+	background: #EDF2F4;
+}
+
+.education {
+	background: #8D99AE;
 }
