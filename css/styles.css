@@ -38,7 +38,7 @@ h3 {
 .content-wrap {
 	max-width: 950px;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 60px 50px;
 	overflow: hidden;
 }
 
@@ -57,12 +57,23 @@ h3 {
 	text-transform: uppercase;
 }
 
+.btn {
+	text-decoration: none;
+	background: #EF233C;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+}
+
 header, footer {
 	background: #2B2D42;
 	color: #8D99AE;
 }
 
-
+header{
+	padding-top: 50px;
+	position: relative;
+}
 
 header h1, header h2 {
 	color: #EDF2F4;
@@ -71,6 +82,12 @@ header h1, header h2 {
 
 .profile-img {
 	border-radius: 50%;
+}
+
+.download {
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 footer {
@@ -82,6 +99,21 @@ footer {
 	display: inline-block;
 }
 
+nav {
+	text-align: center;
+	background: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav a {
+	display: inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
 .work {
 	background: #EDF2F4;
 }
