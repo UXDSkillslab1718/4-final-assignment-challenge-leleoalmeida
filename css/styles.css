@@ -42,16 +42,7 @@ h3 {
 	overflow: hidden;
 }
 
-.col-narrow {
-	width: 30%;
-	float: left;
-}
 
-.col-wide {
-	width: 70%;
-	float: left;
-	padding-left: 20px;
-}
 
 .uppercase {
 	text-transform: uppercase;
@@ -66,8 +57,11 @@ h3 {
 }
 
 header, footer {
-	background: #2B2D42;
+	background: #3f51b5;
 	color: #8D99AE;
+	background-color:#1f11b5;
+    border-bottom-left-radius:3%;
+    border-bottom-right-radius:30%;
 }
 
 header{
@@ -136,4 +130,29 @@ h3 ~ p {
 }
 p + h3 {
 	margin-top: 30px;
+}
+
+@media (min-width: 900px) {
+
+	.col-narrow {
+	width: 30%;
+	float: left;
+	}
+
+	.col-wide {
+		width: 70%;
+		float: left;
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 899px) {
+
+	header {
+		text-align: center;
+	}
+
+	.profile-img {
+		width: 200px;
+	}
 }
